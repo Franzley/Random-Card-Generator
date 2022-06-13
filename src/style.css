@@ -1,1 +1,28 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+  text-align: center;
+  margin: 0;
+  font-size: 100px;
+  font-family: "Domine", serif;
+}
+
+.card {
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 19rem;
+  height: 30rem;
+  border-radius: 1.5rem !important;
+}
+#top-icon {
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+#bottom-icon {
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
