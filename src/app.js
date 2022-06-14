@@ -22,4 +22,13 @@ function randomize() {
   suits[0].innerHTML = suitArr[randomizeSuit];
   suits[1].innerHTML = suitArr[randomizeSuit];
   numb[0].innerHTML = arrNum[randomizeIndex];
+
+  var testDiamOrHeart =
+    suitArr[randomizeSuit] === "&diams;" ||
+    suitArr[randomizeSuit] === "&hearts;";
+
+  if (testDiamOrHeart) {
+    suits[0].style.color = "red";
+    suits[1].style.color = "red";
+  }
 }
